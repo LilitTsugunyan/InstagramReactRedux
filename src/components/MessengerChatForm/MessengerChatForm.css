@@ -1,0 +1,28 @@
+
+
+.Chat-box {
+	margin: 0 20px;
+}
+
+.Chat-input{
+	line-height: 40px;
+	border: 1px solid #dfdfdf;
+	width: 100%;
+	margin: 10px 0;
+	border-radius: 40px;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+}
+
+.Chat-input input{
+	width: 95%;
+	border: none;
+	line-height: 50px;
+}
+
+.Chat-input img{
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}

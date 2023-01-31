@@ -1,0 +1,28 @@
+.MessengerChat {
+	min-width: 100%;
+	min-height: 100%;
+	border-bottom: 1px solid #dfdfdf;
+	overflow-y: scroll;
+	overscroll-behavior: contain;
+	padding: 20px 20px 0 20px;
+	height: 440px;
+
+}
+.MessengerChat p {
+	outline: 0;
+    width: 100%;
+    border: 0;
+    border-radius: 30px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 12px;
+	clear: both;
+}
+.UserMessage {
+	text-align: right;
+	background: #cacacac4;
+}
+.userMsg {
+	float: right;
+}

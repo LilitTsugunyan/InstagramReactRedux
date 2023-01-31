@@ -1,0 +1,67 @@
+.login {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+
+}
+
+.Form {
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 60px;
+    text-align: center;
+}
+
+.Form input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.Form input:focus {
+    background: #dbdbdb;
+}
+
+.Form button {
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(0, 162, 255);
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.Form button:active {
+    background: #383f4d;
+}
+
+.Form span {
+    font-size: 15px;
+    color: #353c4d;
+    margin-bottom: 25px;
+    display: block;
+    margin-top: 25px;
+
+}
+
+.Form img {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
